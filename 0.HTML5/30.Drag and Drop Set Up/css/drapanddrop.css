@@ -1,0 +1,71 @@
+/*
+   Author: Abdibogoreh;
+   tutorial 5
+*/
+html, body{
+	 padding: 0;
+	 margin: 0;
+	 width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+.left {
+	   float: left;
+}
+
+.right {
+	  float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+#main {
+	 padding: 30px;
+}
+
+#dragFrom {
+	  border: 1px solid #dadada;
+	  width: 200px;
+	  background: #999;
+}
+
+.boxItem {
+	  width: 124px;
+	  height: 70px;
+	  border: 1px solid red;
+	  margin: 10px auto;
+	  padding: 12px;
+	  background: white;
+	  display: block;
+}
+
+.boxItem img {
+      cursor: move;
+}
+
+#dropTo {
+	  border: 1px solid #dadada;
+	  width: 300px;
+	  min-height: 180px;
+	  padding: 22px;
+	  margin: 0 20px;
+	  background: #f3f4f5;
+	  display: block;
+}

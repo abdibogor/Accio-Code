@@ -1,0 +1,17 @@
+nodejs.org
+
+Node.js is a platform built on Chrome's Javascript Runtime for easily building fast, scalable network applications.
+Node.js users an event-driven, non-blocking model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+Node.js is an open-source, cross-platform JavaScript run-time environment that executes server-side JavaSCript code.
+
+www.npmjs.org
+
+cd C:/
+cd _projects/tutorials/html5_tools\gittutorial
+npm install bower *g
+
+
+Some explaining 
+bower.io
+gruntjs.com

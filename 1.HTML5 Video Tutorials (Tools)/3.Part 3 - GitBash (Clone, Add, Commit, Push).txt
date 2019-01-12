@@ -1,0 +1,22 @@
+After Committing the changes, the next step is pushing the local repository to the Git Server on a remote location (such as Github or Bitbucket)
+
+After creating a remote repository we have the foloowing options:
+1) The download(clone) the repository and start making changes.
+2) To initialize a local repository and then connect it with the remote one.
+
+The clone command is used to download a remote repository:
+e.g $ git clone https://www.github.com/user/project_name.git
+Cloning should be done at the very start of the project
+
+if you have already initialized a local repository, you can connect it to the remote one using the following command:
+e.g $ git remote add origin https://www.github.com/user/project_name.git
+
+Pushing Remotely 
+After making our local changes and commits, its time to push the changes to the remote repository.
+The push command tells Git where to puts our commits.
+$ git push -u origin master
+
+The name of our remote is origin and the default local branch name is master.
+The -u tells Git to remember the parameters so that next time we can simply run git push and Git will know what to do.
+Also, keep in mind that it is not mandatory to push your project to a remote location.
+You are free to work on your project alone without pushing it anywhere, if you need to.

@@ -1,0 +1,12 @@
+Github is a hosting service for your Git respositories.
+
+Let's create a new repository at Github:
+1) Go to https://www.github.com and signup/login
+
+2) Click on the "+" button at top right corner and select "New resporitory"
+3) Choose a respository name. (You can leave other fields blank for now)
+4) You will be redirected automatically to a page, where you can find all the required information to continue your next page.
+
+There are other hosting services like GitHub, such as BitBucket.
+
+https://help.github.com/articles/set-up-git

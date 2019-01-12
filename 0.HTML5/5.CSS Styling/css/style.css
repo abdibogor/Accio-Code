@@ -1,0 +1,28 @@
+html, body{
+	 padding: 0;
+	 margin: 0;
+	 width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+#wrapper {
+	  width: 960px;
+	  background: #f3f4f5;
+	  margin: 0 auto;
+}
+
+header {
+	 background: #dadada;
+	 height: 70px;
+}
+
+.logo {
+	 margin: 20px;
+	 font: bold 24px Arial;
+	 color: #000;   
+}

@@ -1,0 +1,6 @@
+execute gitbash
+git checkout binding
+git pull origin
+cd ../..angularjs  //back
+clear
+

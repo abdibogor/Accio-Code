@@ -1,0 +1,6 @@
+gitbash
+npm install run-sequence --save-dev
+
+gulp
+clear
+gulp depsjs

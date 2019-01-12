@@ -1,0 +1,7 @@
+<h1>Phases</h1>
+   <div data-ng-repeat="phase in phases">
+   	<h1>{{phase.title}}</h1>
+      <ul>
+         <li data-ng-repeat="movie in phase.movies">{{movie.title}}</li>
+      </ul>
+   </div>

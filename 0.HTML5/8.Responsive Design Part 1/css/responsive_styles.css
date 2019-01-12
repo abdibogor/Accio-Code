@@ -1,0 +1,53 @@
+/*
+   Author: Abdibogoreh;
+   tutorial 5
+*/
+@CHARSET "utf-8";
+html, body{
+	 padding: 0;
+	 margin: 0;
+	 width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	 display: -webkit-box;
+	 -webkit-box-pack: center;
+}
+
+#wrapper {
+	     max-width: 960px;
+	     display: -webkit-box;
+	     -webkit-box-orient: vertical;
+}
+
+header {
+	background: #999;
+	padding: 20px;
+}
+
+nav {
+	 background: #878787;
+	 color: #fff;
+}
+
+nav ul li {
+	display: inline-block;
+	font: bold 10px Arial;
+	padding: 10px;
+}
+
+nav ul li a {
+	   color: white;
+	   text-decoration: none;
+}
+
+nav ul li a:hover {
+	   color: blue;
+	   text-decoration: underline;
+}

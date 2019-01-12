@@ -1,0 +1,5 @@
+git bash
+
+npm install gulp-sass --save-dev
+
+gulp sass

@@ -1,0 +1,2 @@
+gitbash 
+bower install angular--route --saved=-dev

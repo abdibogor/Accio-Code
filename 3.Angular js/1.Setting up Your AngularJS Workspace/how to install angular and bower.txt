@@ -1,0 +1,6 @@
+https://github.com/colorfest/angularjs
+
+C:\Users\ASUS PC\Documents\Web development\27.Accio Code\3.Angular js\angularjs-master
+gitbash
+npm install
+bower install

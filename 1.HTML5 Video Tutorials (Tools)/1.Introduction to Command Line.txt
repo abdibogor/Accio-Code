@@ -1,0 +1,22 @@
+i want to write step by step
+cmd
+systeminfo
+cls
+tasklist
+ping
+cls
+ping google.com
+cd ..
+cd ../
+cd C:/
+cd Users
+cd %username%
+cls
+C:/_projects/tutorials
+dir
+cd C:/Users/KC
+cd Desktop
+mkdir test
+rmdir test
+notepad/newfile.txt
+help

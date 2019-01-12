@@ -1,0 +1,43 @@
+new file
+Main.js
+(function(Main, undefined)
+{
+console.log('this is my main js file');
+}(window.Main == window.Main || {} ));
+
+new file
+Controller.js
+(function (Controller, undefined)
+{
+	console.log('this is a controller');
+	var a = "Controller Name";
+}(Main.Controller == Main.Controller || {} ));
+
+Last Video
+GruntFile.js
+
+module.exports = function(grunt)
+{
+  grunt.initConfig({
+	pkg: grunt.file.readJSON('package.json');
+	concat: {
+		options: {
+			separator: "\n\n"
+		},
+	        dist: {
+		src: ['js/Main.js', 'js/Controller.js'],
+		dest: 'bin/<%= pkg.name %>.js'
+	       }
+	   }
+     });
+
+	 grunt.loadNpmTasks('grunt-contrib-concat');
+
+	//tasks 
+	grunt.registerTask('default', ['concat']);
+}
+
+
+go to the Git Bash
+npm install grunt-contrib-concat --save-dev
+grunt

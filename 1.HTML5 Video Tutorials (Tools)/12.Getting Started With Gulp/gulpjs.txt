@@ -1,0 +1,9 @@
+gulpjs.com
+
+install 
+npm install -g gulp
+
+npm install gulp-concat --save-dev
+
+gitbash
+gulp 

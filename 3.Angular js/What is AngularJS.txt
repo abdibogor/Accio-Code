@@ -1,0 +1,11 @@
+how to install AngularJS
+gitbash
+C:\Users\ASUS PC\Documents\Web development\27.Accio Code\3.Angular js\angularjs-master\angularjs-master
+npm install
+bower install
+cd ../../
+cd angularjs
+http-server
+
+What is AngularJS?
+

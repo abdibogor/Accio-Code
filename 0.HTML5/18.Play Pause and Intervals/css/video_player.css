@@ -1,0 +1,106 @@
+/*
+   Author: Abdibogoreh;
+   tutorial 5
+*/
+html, body{
+	 padding: 0;
+	 margin: 0;
+	 width: 100%;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Part 7: Floats and Footers */
+.left {
+	   float: left;
+}
+
+.right {
+	  float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+#main {
+	  width: 720px;
+	  margin: 20px auto;
+	  padding: 12px;
+	  background: #ccc;
+	  text-align: center;
+	  border-radius: 5px;
+	  -moz-box-shadow: 2px 5px 5px #888;
+	  box-shadow: 2px 5px 5px #888;
+	  background: #eb1ff6;
+	  background: -webkit-gradient(linear, left top, left bottom, from(#f3f4f5), to(#dadada));
+	  background: -moz-linear-gradient(top, #f3f4f5, #dadada);
+	  
+}
+
+/* Part 15 Custom Video Player CSS continued */
+
+nav {
+	 margin: 5px;
+	 width: 100%;
+}
+
+#timer {
+	 display: block;
+	 color: black;
+	 text-align: center;
+	 height: 28px;
+	 padding-top: 12px;
+	 font-size: 12px;
+	 font-family: Arial;
+}
+
+#playPauseBtn {
+	display: block;
+	background: #656565;
+	color: white;
+	text-align: center;
+	padding: 9px;
+	border: 1px solid #dadada;
+	cursor: pointer;
+	width: 64px;
+}
+
+#playPauseBtn:hover {
+		background: white;
+		color: #333;
+}
+
+#playPauseBtn:active {
+		background: #333;
+		color: #999;
+}
+
+#scurbberContainer {
+	  position: relative;
+	  width: 500px;
+	  height: 20px;
+	  padding: 4px;
+	  margin: 6px;
+	  background: black;
+}
+
+#scrubberBar {
+	   position: absolute;
+	   background: orange;
+	   width: 0px;
+	   height:20px;
+}

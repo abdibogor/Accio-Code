@@ -1,0 +1,18 @@
+php.net
+Download
+then decompressed zip
+
+move local C
+then click computer and proprietes , 
+paramètres système avancés
+paramètres système avancés
+in bottom 
+Démarrage et recuperation
+variable environnement
+path
+C:\php
+
+executes gitbash
+php -v
+cd /c/_projects/tutorials/php
+php -S localhost:8080

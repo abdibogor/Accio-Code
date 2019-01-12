@@ -1,0 +1,8 @@
+cd _projects/tutorials/html5_tools/gittutorial
+$ npm install bower
+bower install bootstrap
+bower isntall angularjs
+
+bower install angularjs
+bower list
+bower init

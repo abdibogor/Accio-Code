@@ -1,0 +1,4 @@
+That's simple to understand in this tutorial
+
+Eclipse platform
+Project Explorer

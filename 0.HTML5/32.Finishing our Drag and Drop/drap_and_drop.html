@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Abdibogoreh</title>
+<link rel="shortcut icon" type="image/x-icon" href="abdi.jpg"/>
+<link rel="stylesheet" type="text/css" href="css/drapanddrop.css">
+</head>
+<body>
+
+	<section id="main" class="clearfix">
+		 <div id="dragFrom"  class="left">
+		 		<div id="item1" class="boxItem">
+		 			<div class="left">
+		 				<img src="images/vader.png" title="item 1">
+		 			</div>
+		 			<div class="left">
+		 				Item 1
+		 			</div>
+		 		</div>
+
+		    <div id="item2" class="boxItem">
+		 			<div class="left">
+		 				<img src="images/firefox_icon.png" title=" Item 2">
+		 			</div>
+		 			<div class="left">
+		 				Item 2
+		 			</div><!-- end of left -->
+		      </div><!-- Item2 --->
+		</div>
+
+		 <div id="dropTo"  class="left">
+		 		Drop items here!
+		 </div><!-- end of dropto -->
+	</section><!-- end of section -->
+
+	<!-- Javascript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/drapanddrop.js"></script>
+	<script>
+		 $(document).ready(function(){
+		 	DD.initialize();
+		 });
+	</script>
+	<!-- end Javascript -->
+
+</body>
+</html> 
+

@@ -1,0 +1,3 @@
+git bash
+
+npm install gulp browser-sync --save-dev

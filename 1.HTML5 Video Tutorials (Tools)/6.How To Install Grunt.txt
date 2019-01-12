@@ -1,0 +1,9 @@
+git bash 
+choice your folder
+$ bower install jquery-ui
+bower install modernizr
+bower uninstall modernizr
+bower install modernizr
+clear or cls
+npm init
+npm install -g grunt-cli
